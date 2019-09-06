@@ -44,7 +44,7 @@ public class myListFragment extends ListFragment implements AdapterView.OnItemCl
         }
         //Perform the transaction
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.add(R.id.msg, fragment);
+        fragmentTransaction.add(R.id.detailcontainer, fragment);
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
