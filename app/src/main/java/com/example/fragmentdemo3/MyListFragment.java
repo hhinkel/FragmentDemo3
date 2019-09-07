@@ -14,7 +14,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.fragment.app.ListFragment;
 
-public class myListFragment extends ListFragment implements AdapterView.OnItemClickListener {
+public class MyListFragment extends ListFragment implements AdapterView.OnItemClickListener {
 
     //@Override
     public View OnCreateView (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -44,7 +44,7 @@ public class myListFragment extends ListFragment implements AdapterView.OnItemCl
         }
         //Perform the transaction
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.add(R.id.detailcontainer, fragment);
+        //fragmentTransaction.add(R.id.detailcontainer, fragment);
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }

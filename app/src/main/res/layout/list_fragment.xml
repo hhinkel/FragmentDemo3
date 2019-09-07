@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- <ListView
+    <ExpandableListView
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -13,9 +13,9 @@
     <TextView
         android:id="@android:id/empty"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />  -->
+        android:layout_height="wrap_content" />
 
-    <FrameLayout
+   <!-- <FrameLayout
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -24,6 +24,6 @@
         android:id="@+id/detailcontainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone" />
+        android:visibility="gone" />  -->
 
 </LinearLayout>
